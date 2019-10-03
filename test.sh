@@ -2,16 +2,14 @@
 
 
 # Unpack tarballs and put them in a frequencies directory
-# Unfortunately frequencies will then be full of folders containing the actual tsv files.
-# cd tars/
-# for tarball in *
-# do
-#   stem=${tarball/.*}
-#   freq_file_path="${stem}/${stem}-words.txt"
-#   tar -C ../frequencies -xzf "$tarball" "$freq_file_path"
-#   # > "../normalized/${stem}.tsv"
-# done
-# cd ..
+cd tars/
+for tarball in *
+do
+  stem=${tarball/.*}
+  freq_file_path="${stem}/${stem}-words.txt"
+  tar -C ../frequencies -xzf "$tarball" "$freq_file_path"
+done
+cd ..
 
 
 
