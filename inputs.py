@@ -2,40 +2,39 @@
 
 import sys
 import csv
-import itertools
-
-# Downward match should print added frequencies
-# Upward match should print 0 (meaning they are not added to tsv by bash script)
-# Matchless should print False
+import regex
+from matches import MATCHES
 
 entry = None
-count = 0
 
 if len(sys.argv) >= 2:
-  entry = sys.argv[1:]
+  file_path = sys.argv[1]
 
-# An entry with a match would look like:
-# ['Sie', '453', '66:136\tsie\tsie\t502\n73:143\tSie\tSie\t453']
+word_freq_dict = {}
 
-# Sort of assuming we only ever get two matches...
-grep_val = entry[-1]
-matches = grep_val.split("\n")
+file_to_match = file_path.split("/")[1]
 
-# Meaning we actually have a match
-if len(matches) >= 2:
-  first_match = matches.pop(0).split("\t")
-  # first_match = matches[0].split("\t")
+with open(file_path, "r") as frequencies_file:
+  frequencies_tsv = csv.reader(frequencies_file, delimiter="\t", quoting=csv.QUOTE_NONE)
+  for row in frequencies_tsv:
+    word = row[2].lower()
+    freq = int(row[3])
+    # ^\p{L}+$ is probably sufficient, this regexp pattern is perhaps needlessly specific
+    if regex.match(r"^\p{L}+\p{M}*+$", word):
+      if word not in word_freq_dict:
+        word_freq_dict[word] = freq
+      else:
+        word_freq_dict[word] = word_freq_dict[word] + freq
 
-  # Check that we are moving downward
-  if entry[0] == first_match[1]:
-    # Cycle through all matches
-    for remaining in matches:
-      remaining = remaining.split("\t")
-      # Eliminate false matches like "muss" and "muss gehen"
-      if first_match[1].lower() == remaining[1].lower():
-        count += int(first_match[-1]) + int(remaining[-1])
-else:
-  count = False
+merged_tsv_file = open(MATCHES[file_to_match]["file_name"], "w")
+
+with open(MATCHES[file_to_match]["path"], "r") as wiki_file:
+  wiki_tsv = csv.reader(wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE)
+  for i in range(200):
+    val = next(wiki_tsv)
+    if val[0] in word_freq_dict:
+      print(f"{val[0]}\t{val[1]}\t{word_freq_dict[val[0]]}", file=merged_tsv_file)
 
 
-print(count)
+# print(word_freq_dict)
+# print(len(word_freq_dict))
