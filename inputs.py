@@ -10,6 +10,7 @@ entry = None
 if len(sys.argv) >= 2:
   file_path = sys.argv[1]
 
+print("Currently working on:", file_path)
 word_freq_dict = {}
 
 file_to_match = file_path.split("/")[1]
@@ -30,10 +31,12 @@ merged_tsv_file = open(MATCHES[file_to_match]["file_name"], "w")
 
 with open(MATCHES[file_to_match]["path"], "r") as wiki_file:
   wiki_tsv = csv.reader(wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE)
-  for i in range(200):
-    val = next(wiki_tsv)
+  for row in wiki_tsv:
+    val = row
     if val[0] in word_freq_dict:
       print(f"{val[0]}\t{val[1]}\t{word_freq_dict[val[0]]}", file=merged_tsv_file)
+
+merged_tsv_file.close()
 
 
 # print(word_freq_dict)

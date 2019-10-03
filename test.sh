@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 
 # Unpack tarballs and put them in a frequencies directory
