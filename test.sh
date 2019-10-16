@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir tars
+mkdir frequencies
+python grab_data.py
 
 # Unpack tarballs and put them in a frequencies directory
 cd tars/
@@ -18,4 +21,6 @@ do
   python inputs.py $val
 done
 
-# Need to re-sort the resulting tsv's if we want high-low frequency
+
+# rm -rf tars
+# rm -rf frequencies

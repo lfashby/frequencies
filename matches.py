@@ -2,303 +2,308 @@
 
 MATCHES = {
   #Albanian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/alb_phonemic.tsv",
-    "file_name": "merged_tsvs/alb_phonemic_frequencies.tsv"
+  "sqi_wikipedia_2016_300K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/alb_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/sqi_wikipedia_2016_300K.tar.gz"
   },
-  # Arabic
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/ara_phonemic.tsv",
-    "file_name": "merged_tsvs/ara_phonemic_frequencies.tsv"
+  # Arabic - 294mb tar.gz
+  "ara_news_2017_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/ara_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ara_news_2017_1M.tar.gz"
   },
   # Armenian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/arm_phonetic.tsv",
-    "file_name": "merged_tsvs/arm_phonetic_frequencies.tsv"
+  "hye-am_web_2017_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/arm_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/hye-am_web_2017_1M.tar.gz"
   },
   # Assamese
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/asm_phonemic.tsv",
-    "file_name": "merged_tsvs/asm_phonemic_frequencies.tsv"
+  "asm_wikipedia_2016_30K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/asm_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/asm_wikipedia_2016_30K.tar.gz"
   },
   # Azerbaijani
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/aze_phonetic.tsv",
-    "file_name": "merged_tsvs/aze_phonetic_frequencies.tsv"
+  "aze_newscrawl_2013_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/aze_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/aze_newscrawl_2013_1M.tar.gz"
   },
   # Bashkir
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/bak_phonetic.tsv",
-    "file_name": "merged_tsvs/bak_phonetic_frequencies.tsv"
+  "bak_news_2016_300K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/bak_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/bak_news_2016_300K.tar.gz"
   },
   # Belarusian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/bel_phonetic.tsv",
-    "file_name": "merged_tsvs/bel_phonetic_frequencies.tsv"
+  "bel_news_2011_300K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/bel_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/bel_news_2011_300K.tar.gz"
   },
   # Bulgarian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/bul_phonemic.tsv",
-    "file_name": "merged_tsvs/bul_phonemic_frequencies.tsv"
+  "bul_newscrawl_2017_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/bul_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/bul_newscrawl_2017_1M.tar.gz"
   },
   # Catalan
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/cat_phonemic.tsv",
-    "file_name": "merged_tsvs/cat_phonemic_frequencies.tsv"
+  "cat_newscrawl_2016_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/cat_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/cat_newscrawl_2016_1M.tar.gz"
   },
   # Czech
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/cze_phonetic.tsv",
-    "file_name": "merged_tsvs/cze_phonetic_frequencies.tsv"
+  "ces_news_2005-2007_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/cze_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ces_news_2005-2007_1M.tar.gz"
   },
   # Danish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/dan_phonetic.tsv",
-    "file_name": "merged_tsvs/dan_phonetic_frequencies.tsv"
+  "dan_news_2007_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/dan_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/dan_news_2007_1M.tar.gz"
   },
   # Dutch
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/dut_phonemic.tsv",
-    "file_name": "merged_tsvs/dut_phonemic_frequencies.tsv"
+  "nld_mixed_2012_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/dut_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nld_mixed_2012_1M.tar.gz"
   },
   # English
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/eng_phonemic.tsv",
-    "file_name": "merged_tsvs/eng_phonemic_frequencies.tsv"
+  "eng_news_2016_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/eng_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/eng_news_2016_1M.tar.gz"
   },
   # Esperanto
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/epo_phonemic.tsv",
-    "file_name": "merged_tsvs/epo_phonemic_frequencies.tsv"
+  "epo_mixed_2012_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/epo_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/epo_mixed_2012_1M.tar.gz"
   },
   # Faroese
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/fao_phonemic.tsv",
-    "file_name": "merged_tsvs/fao_phonemic_frequencies.tsv"
+  "fao-fo_web_2015_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/fao_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/fao-fo_web_2015_1M.tar.gz"
   },
   # Finnish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/fin_phonemic.tsv",
-    "file_name": "merged_tsvs/fin_phonemic_frequencies.tsv"
+  "fin_web_2002_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/fin_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/fin_web_2002_1M.tar.gz"
   },
   # French
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/fre_phonemic.tsv",
-    "file_name": "merged_tsvs/fre_phonemic_frequencies.tsv"
+  "fra_news_2010_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/fre_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/fra_news_2010_1M.tar.gz"
   },
   # Galician
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/glg_phonemic.tsv",
-    "file_name": "merged_tsvs/glg_phonemic_frequencies.tsv"
+  "glg_wikipedia_2016_300K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/glg_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/glg_wikipedia_2016_300K.tar.gz"
   },
   # Georgian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/geo_phonemic.tsv",
-    "file_name": "merged_tsvs/geo_phonemic_frequencies.tsv"
+  "kat_newscrawl_2016_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/geo_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/kat_newscrawl_2016_1M.tar.gz"
   },
   # German
-  "" : {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/ger_phonemic.tsv",
-    "file_name": "merged_tsvs/ger_phonemic_frequencies.tsv"
+  "deu_news_2015_1M" : {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/ger_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/deu_news_2015_1M.tar.gz"
   },
   # Greek
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/gre_phonemic.tsv",
-    "file_name": "merged_tsvs/ger_phonemic_frequencies.tsv"
+  "ell-gr_web_2015_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/gre_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ell-gr_web_2015_1M.tar.gz"
   },
   # Hindi
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/hin_phonemic.tsv",
-    "file_name": "merged_tsvs/hin_phonemic_frequencies.tsv"
+  "hin_news_2011_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/hin_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/hin_news_2011_1M.tar.gz"
   },
   # Hungarian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/hun_phonetic.tsv",
-    "file_name": "merged_tsvs/hun_phonetic_frequencies.tsv"
+  "hun_mixed_2012_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/hun_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/hun_mixed_2012_1M.tar.gz"
   },
   # Icelandic
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/ice_phonemic.tsv",
-    "file_name": "merged_tsvs/ice_phonemic_frequencies.tsv"
+  "isl-is_web_2017_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/ice_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/isl-is_web_2017_1M.tar.gz"
   },
   # Ido
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/ido_phonemic.tsv",
-    "file_name": "merged_tsvs/ido_phonemic_frequencies.tsv"
+  "ido_wikipedia_2016_100K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/ido_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ido_wikipedia_2016_100K.tar.gz"
   },
   # Indonesian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/ind_phonemic.tsv",
-    "file_name": "merged_tsvs/ind_phonemic_frequencies.tsv"
+  "ind_mixed_2012_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/ind_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ind_mixed_2012_1M.tar.gz"
   },
   # Irish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/gle_phonemic.tsv",
-    "file_name": "merged_tsvs/gle_phonemic_frequencies.tsv"
+  "gle_newscrawl_2014_300K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/gle_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/gle_newscrawl_2014_300K.tar.gz"
   },
   # Italian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/ita_phonemic.tsv",
-    "file_name": "merged_tsvs/ita_phonemic_frequencies.tsv"
+  "ita_news_2010_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/ita_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ita_news_2010_1M.tar.gz"
   },
   # Japanese
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/jpn_phonetic.tsv",
-    "file_name": "merged_tsvs/jpn_phonetic_frequencies.tsv"
+  "jpn_news_2011_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/jpn_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/jpn_news_2011_1M.tar.gz"
   },
   # Korean
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/kor_phonetic.tsv",
-    "file_name": "merged_tsvs/kor_phonetic_frequencies.tsv"
+  "kor_news_2007_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/kor_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/kor_news_2007_1M.tar.gz"
   },
   # Kurdish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/kur_phonemic.tsv",
-    "file_name": "merged_tsvs/kur_phonemic_frequencies.tsv"
+  "kur_newscrawl_2011_30K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/kur_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/kur_newscrawl_2011_30K.tar.gz"
   },
   # Latin
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/lat_phonemic.tsv",
-    "file_name": "merged_tsvs/lat_phonemic_frequencies.tsv"
+  "lat_wikipedia_2018_100K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/lat_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/lat_wikipedia_2018_100K.tar.gz"
   },
   # Latvian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/lav_phonetic.tsv",
-    "file_name": "merged_tsvs/lav_phonetic_frequencies.tsv"
+  "lav-lv_web_2015_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/lav_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/lav-lv_web_2015_1M.tar.gz"
   },
-  # Lithuanian | Lithuanian | True | Phonetic | 12730 |
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/lit_phonetic.tsv",
-    "file_name": "merged_tsvs/lit_phonetic_frequencies.tsv"
+  # Lithuanian
+  "lit-lt_web_2016_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/lit_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/lit-lt_web_2016_1M.tar.gz"
   },
   # Lower Sorbian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/dsb_phonemic.tsv",
-    "file_name": "merged_tsvs/dsb_phonemic_frequencies.tsv"
+  "dsb_wikipedia_2016_10K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/dsb_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/dsb_wikipedia_2016_10K.tar.gz"
   },
   # Luxembourgish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/ltz_phonemic.tsv",
-    "file_name": "merged_tsvs/ltz_phonemic_frequencies.tsv"
+  "ltz-lu_web_2013_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/ltz_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ltz-lu_web_2013_1M.tar.gz"
   },
   # Macedonian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/mac_phonetic.tsv",
-    "file_name": "merged_tsvs/mac_phonetic_frequencies.tsv"
+  "mkd-mk_web_2015_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/mac_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/mkd-mk_web_2015_1M.tar.gz"
   },
   # Malay
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/may_phonemic.tsv",
-    "file_name": "merged_tsvs/may_phonemic_frequencies.tsv"
+  "msa_newscrawl_2016_300K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/may_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/msa_newscrawl_2016_300K.tar.gz"
   },
   # Maltese
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/mlt_phonemic.tsv",
-    "file_name": "merged_tsvs/mlt_phonemic_frequencies.tsv"
+  "mlt_web_2012_300K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/mlt_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/mlt_web_2012_300K.tar.gz"
   },
   # Mongoloian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/mon_phonemic.tsv",
-    "file_name": "merged_tsvs/mon_phonemic_frequencies.tsv"
+  "mon_wikipedia_2016_100K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/mon_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/mon_wikipedia_2016_100K.tar.gz"
   },
   # Northern Sami
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/sme_phonemic.tsv",
-    "file_name": "merged_tsvs/sme_phonemic_frequencies.tsv"
+  "sme-no_news_2015_10K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/sme_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/sme-no_news_2015_10K.tar.gz"
   },
   # Norwegian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/nor_phonemic.tsv",
-    "file_name": "merged_tsvs/nor_phonemic_frequencies.tsv"
+  "nor_wikipedia_2016_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/nor_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nor_wikipedia_2016_1M.tar.gz"
   },
   # Norwegian Bokmål
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/nob_phonemic.tsv",
-    "file_name": "merged_tsvs/nob_phonemic_frequencies.tsv"
+  "nob_news_2013_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/nob_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nob_news_2013_1M.tar.gz"
   },
   # Norwegian Nynorsk
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/nno_phonemic.tsv",
-    "file_name": "merged_tsvs/nno_phonemic_frequencies.tsv"
+  "nno-no_web_2017_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/nno_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nno-no_web_2017_1M.tar.gz"
   },
   # Persian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/per_phonemic.tsv",
-    "file_name": "merged_tsvs/per_phonemic_frequencies.tsv"
+  "fas_newscrawl_2017_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/per_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/fas_newscrawl_2017_1M.tar.gz"
   },
   # Polish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/pol_phonemic.tsv",
-    "file_name": "merged_tsvs/pol_phonemic_frequencies.tsv"
+  "pol_news_2008_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/pol_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/pol_news_2008_1M.tar.gz"
   },
   # Portuguese
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/por_phonemic.tsv",
-    "file_name": "merged_tsvs/por_phonemic_frequencies.tsv"
+  "por_newscrawl_2016_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/por_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/por_newscrawl_2016_1M.tar.gz"
   },
   # Romanian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/rum_phonetic.tsv",
-    "file_name": "merged_tsvs/rum_phonetic_frequencies.tsv"
+  "ron_news_2015_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/rum_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ron_news_2015_1M.tar.gz"
+  },
+  # Russian 
+  "rus_news_2010_1M" : {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/rus_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/rus_news_2010_1M.tar.gz"
   },
   # Sanskrit
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/san_phonemic.tsv",
-    "file_name": "merged_tsvs/san_phonemic_frequencies.tsv"
+  "san_wikipedia_2016_100K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/san_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/san_wikipedia_2016_100K.tar.gz"
   },
   # Slovak
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/slo_phonemic.tsv",
-    "file_name": "merged_tsvs/slo_phonemic_frequencies.tsv"
+  "slk-sk_web_2016_1M.tar": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/slo_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/slk-sk_web_2016_1M.tar.gz"
   },
   # Slovenian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/slv_phonemic.tsv",
-    "file_name": "merged_tsvs/slv_phonemic_frequencies.tsv"
+  "slv-si_web_2014_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/slv_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/slv-si_web_2014_1M.tar.gz"
   },
   # Spanish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/spa_phonemic.tsv",
-    "file_name": "merged_tsvs/spa_phonemic_frequencies.tsv"
+  "spa_news_2011_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/spa_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/spa_news_2011_1M.tar.gz"
   },
   # Swedish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/swe_phonemic.tsv",
-    "file_name": "merged_tsvs/swe_phonemic_frequencies.tsv"
+  "swe_news_2007_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/swe_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/swe_news_2007_1M.tar.gz"
   },
   # Tagalog
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/tgl_phonemic.tsv",
-    "file_name": "merged_tsvs/tgl_phonemic_frequencies.tsv"
+  "tgl_newscrwal_2011_300K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/tgl_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/tgl_newscrwal_2011_300K.tar.gz"
   },
   # Tamil
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/tam_phonemic.tsv",
-    "file_name": "merged_tsvs/tam_phonemic_frequencies.tsv"
+  "tam_newscrawl_2011_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/tam_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/tam_newscrawl_2011_1M.tar.gz"
   },
   # Turkish
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/tur_phonetic.tsv",
-    "file_name": "merged_tsvs/tur_phonetic_frequencies.tsv"
+  "tur_news_2005_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/tur_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/tur_news_2005_1M.tar.gz"
   },
   # Ukrainian
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/ukr_phonetic.tsv",
-    "file_name": "merged_tsvs/ukr_phonetic_frequencies.tsv"
+  "ukr_mixed_2012_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/ukr_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ukr_mixed_2012_1M.tar.gz"
   },
   # Vietnamese
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/vie_phonetic.tsv",
-    "file_name": "merged_tsvs/vie_phonetic_frequencies.tsv"
+  "vie_newscrwal_2011_1M": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/vie_phonetic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/vie_newscrwal_2011_1M.tar.gz"
   },
   # Welsh
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/wel_phonemic.tsv",
-    "file_name": "merged_tsvs/wel_phonemic_frequencies.tsv"
+  "cym_wikipedia_2016_100K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/wel_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/cym_wikipedia_2016_100K.tar.gz"
   },
   # Zulu
-  "": {
-    "path": "/home/compling7/Desktop/tsv_testing/wikipron/languages/wikipron/tsv/zul_phonemic.tsv",
-    "file_name": "merged_tsvs/zul_phonemic_frequencies.tsv"
+  "zul_mixed_2014_100K": {
+    "path": "/Users/lucasashby/Apps/wikipron/languages/wikipron/tsv/zul_phonemic.tsv",
+    "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/zul_mixed_2014_100K.tar.gz"
   }
 }
