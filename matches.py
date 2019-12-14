@@ -6,7 +6,7 @@ MATCHES = {
     "path": "/home/lucas/Apps/wikipron/languages/wikipron/tsv/alb_phonemic.tsv",
     "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/sqi_wikipedia_2016_300K.tar.gz"
   },
-  # Arabic - 294mb tar.gz
+  # Arabic
   "ara_news_2017_1M": {
     "path": "/home/lucas/Apps/wikipron/languages/wikipron/tsv/ara_phonemic.tsv",
     "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ara_news_2017_1M.tar.gz"
