@@ -7,6 +7,7 @@ from matches import MATCHES
 
 word_freq_dict = {}
 
+# Rework this now that freq_tsvs has new file structure.
 for dirpath, _, filename in os.walk("freq_tsvs"):
     # Filters out top-most directory
     if filename:

@@ -1,5 +1,3 @@
-# TODO: Check path after pulling down tsv wikipron branch, add unpacked tar folder names
-
 MATCHES = {
   #Albanian
   "sqi_wikipedia_2016_300K": {
